@@ -1,0 +1,109 @@
+#menu{
+	width: 1000px;
+	height: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 40px;
+	background-color: green;
+	/*border: solid 1px #ccc;*/
+}
+#menu>ul{
+	list-style-type: none;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;	
+}
+#menu>ul>li{
+	float: left;
+}
+#menu>ul>li>a{
+	display: block;
+	font-family: Tahoma,Geneva,sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	line-height: 40px;
+	background-color: green;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-right: solid 1px #ccc;
+}
+#menu>ul>li>a:hover{
+	background-color: white;
+	color: green;
+}
+#banner{
+	width: 1000px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	background-color: grey;
+
+}
+#icerik{
+	width: 1000px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#solKisim{
+	width: 770px;
+	margin-right: 10px;
+	float: left;
+}
+#sagKisim{
+	width: 220px;
+	float: right;
+}
+.temizle{
+	clear: both;
+}
+#sliderx{
+	width: 770px;
+	height: 320px;
+}
+#solyazi{
+	font-family: Tahoma,Geneva,sans-serif;
+	font-size: 12px;
+	color: black;
+	text-decoration: none;
+	line-height: 22px;
+	margin: 10px;
+	padding: 10px;
+}
+.sagmenubaslik{
+	width: 200px;
+	height: 40px;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-family: Tahoma,Geneva,sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	background-color: green;
+	line-height: 40px;
+	overflow: hidden;
+}
+.sagmenuicerik{
+	font-family: Tahoma,Geneva,sans-serif;
+	font-size: 12px;
+	color: black;
+	background-color: white;
+	border:solid 1px green;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+#footer{
+	width: 980px;
+	margin-top: 10px;
+	padding: 10px 10px 10px 10px;
+	font-family: Tahoma,Geneva,sans-serif;
+	font-size: 12px;
+	line-height: 22px;
+	text-decoration:none;
+	color: black;
+	background-color: green;
+	margin-left: auto;
+	margin-right: auto;
+}
